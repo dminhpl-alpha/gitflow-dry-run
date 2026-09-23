@@ -3,11 +3,11 @@
 function alpha() {
   console.log('Alpha function called');
 }
-function beta() {
+function betaUpdated() {
   console.log('Beta function called');
 }
 module.exports = function () {
   console.log('Module 1 loaded');
   alpha();
-  beta();
+  betaUpdated();
 };
